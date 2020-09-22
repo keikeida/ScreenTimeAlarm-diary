@@ -10,144 +10,45 @@
 
 <body>
 
-<p>Notice how this content isn't centered. To center it we need to wrap it</p>
-
 	<section>
-		<h1>Here is some centered content, by wrapping it with a section tag</h1>
-		<p><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci. </em></p>
-
-		<p>Notice how if you change the width of your browser it stays in the center</p>
-	</section>
-
-	<section>
-		<p>This is a simple nav bar, which is full width of the page</p>
-	</section>
-	<nav>
-		<h3>A nice navigation bar</h3>
-		<a href="#one">Link 1</a>
-		<a href="#two">Link 2</a>
-		<a href="#three">Link 3</a>
+		
+<nav>	
+	<a href="#one">Concept</a>
+	<a href="#two">Development</a>
+	<a href="#three">The App</a>
 	</nav>
+	</section>
 
+
+
+		<header><h1><bold>SCREEN TIME ALARM</bold></h1></header>
+
+
+
+	
 	<section id="one">
-		<p><strong>Content number one</strong></p>
-		<p>By setting an a tag's href to "#one", it will link to a html element with the id of "one". <a href="https://css-tricks.com/hash-tag-links-padding/">More info about that here</a></p>
+	<heading><strong>Concept</strong></heading>
+		<p>Screen Time Alarm is an app that could assist on users to have less screen time so to prevent harm for the eyes and sometimes wasting time. The app advises the user depending on their daily schedule when it is to best be off their devices and when to take some stretches.</p>	
 	</section>
 
 	<section id="two">
-		<p><strong>Content number 2</strong></p>
-	</section>
+		<heading><strong>Development Diary</strong></heading>
+		<p> Initially the plan was to build an app but from the feedback given from the first assignment : to build something that involves more of the internet I built on Adobe XD a part of a protype of the app that can be accessed by anyone online. The link is down below.  </p>
+	  <p>I began this idea as a timer that will go off when the user has been on their devices for an excessive amount time. But I came to the realisation that not many will get off their devices even if alarmed as our lives are now centered around technology. Therefore, I thought, rather than creating an app that forces people off the necessary, it is more significant to create something that can work around it. </p>
+		<p>So I popped up with a plan of an app that would advise people to do certain activities during their day to release the stress from their long stares at the screen. These activities vary depending on their daily schedule and habits.</p>
+		
+		 <p><img src="img/survey.png" width=500></p>
+		
+		<p>Further I developed on Adobe XD an eye-stretching video as one of the results of the survey.</p>
+    </section>
 
 	<section id="three">
-		<p><strong>Content number 3</strong></p>
+	  <heading><strong>The App</strong></heading>
+		<p><a href="https://xd.adobe.com/view/a8bc3908-3106-43fc-aae1-e6f4539aeab1-fdef/"> Click this to try the app.</a></p>
 	</section>
-
-	<header>
-		<section>
-			<h1>This header has a solid background and some padding</h1>
-			<p>There is also a section tag inside it to center this content</p>
-		</section>
-	</header>
 
 	
 
-	<section>
-		<h3>Grids</h3>
-
-		<p>Use grids to divide up or layout content. For example, putting an image on the left, and lots to text on the right</p>
-
-		<p>I've added a 'show' class so you can see where the grids are. Use chrome's web inspector tools to take a closer look</p>
-
-
-		<div class="g-row show"> <!--first wrap all grid cells in a g-row-->
-			<div class="g-50 show">
-				50% width .g-50
-			</div>
-			<div class="g-50 show">
-				50% width .g-50
-			</div>
-
-			<div class="g-30 show">
-				30% width .g-30
-			</div>
-
-			<div class="g-70 show">
-				70% width .g-70
-			</div>
-		</div>
-
-		<p>The other cool things about grids, is that 50% width means 50% of the div's <em>parent</em>. This means you can put cells in cells to get infinitly smaller sizes. The possiblities are endless!</p>
-
-		<div class="g-row show"> <!--first wrap all grid cells in a g-row-->
-			<div class="g-50 show">
-				<div class="g-50 show">
-					<div class="g-50 show">
-						50%
-					</div>
-					<div class="g-50 show">
-						50%
-					</div>
-				</div>
-				<div class="g-50 show">
-					50%
-				</div>
-			</div>
-			<div class="g-50 show">
-				50%
-			</div>
-		</div>
-
-		<p>Here's a simple page using all of these elements</p>
-	</section>
-
-	<header>
-		<section>
-			<h1>Infrastructure of Wellington</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-		</section>
-	</header>
-
-	<section>
-		<div class="g-row">
-			<div class="g-30">
-				<img src="img/cover.jpg">
-			</div>
-			<div class="g-70 padded">
-				<h3>Example</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci.</p>
-			</div>
-		</div>
-
-		<div class="g-row">
-			<div class="g-30">
-				<img src="img/cover.jpg">
-			</div>
-			<div class="g-70 padded">
-				<h3>Example</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci.</p>
-			</div>
-		</div>
-
-		<div class="g-row">
-			<div class="g-30">
-				<img src="img/cover.jpg">
-			</div>
-			<div class="g-70 padded">
-				<h3>Example</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci.</p>
-			</div>
-		</div>
-
-		<div class="g-row">
-			<div class="g-30">
-				<img src="img/cover.jpg">
-			</div>
-			<div class="g-70 padded">
-				<h3>Example</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci.</p>
-			</div>
-		</div>
-	</section>
 
 </body>
 
